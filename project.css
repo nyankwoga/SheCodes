@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: rgba(128, 128, 128,.3);
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+}
+input[type="text"]{
+    background-color: rgba(128, 128, 128, .15);
+    border: 0px;
+    padding: 6px;
+}
+input[type="submit"]{
+    background-color: #885df1;
+    border: 0px;
+    padding: 6px;
+}
+ul{
+    list-style: none;
+        display: inline;
+        margin: 0 15px;
+}
